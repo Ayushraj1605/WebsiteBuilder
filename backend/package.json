@@ -1,0 +1,26 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.  js",
+  "scripts": {
+    "dev": "npx tsc -b && node --no-deprecation dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "description": "",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.37.0",
+    "@dotenvx/dotenvx": "^1.38.2",
+    "@google/generative-ai": "^0.22.0",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.13.5",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "typescript": "^5.7.3"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17"
+  }
+}
